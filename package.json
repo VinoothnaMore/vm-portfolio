@@ -9,8 +9,6 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@ai-sdk/google": "^2.0.49",
-    "ai": "^5.0.115",
     "framer-motion": "^12.23.26",
     "lucide-react": "^0.562.0",
     "next": "16.0.10",
