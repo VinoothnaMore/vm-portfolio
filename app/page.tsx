@@ -114,7 +114,7 @@ export default function Home() {
   {/* EXPERIENCE 1 */}
   <div className="p-5 rounded-xl bg-gray-900/50 border border-gray-800 hover:border-indigo-400 transition-all shadow-sm">
     <div className="flex flex-col gap-0">
-      <h4 className="text-lg font-semibold text-white">Data Analyst</h4>
+      <h4 className="text-lg font-semibold text-white">Systems Analyst</h4>
       <p className="text-gray-400 text-sm font-medium">Stevens Institute of Technology</p>
       
       <div className="flex flex-wrap gap-x-2 text-xs text-gray-500">
@@ -126,12 +126,13 @@ export default function Home() {
       </div>
 
       <p className="text-sm text-gray-400 leading-relaxed mt-2">
-        Responsible for leading data driven transformations by optimizing budget controls and automating financial reporting.
-        Translated complex trends into strategic growth and reengineered cross-functional workflows to maximize operational efficiency.
+        Responsible for improving operational data workflows, supporting data-driven inventory and financial reporting, and 
+        collaborating cross-functionally to enhance system reliability, compliance, and decision-making.
+
       </p>
 
       <div className="flex flex-wrap gap-1 mt-1">
-        {["SQL", "Python", "Tableau", "Excel (VBA)", "Pandas", "Data Analysis", "Data Visualization"].map((tech) => (
+        {["SQL", "Python", "Tableau", "Excel (VBA)", "ETL processes", "Data Analysis", "Data Visualization"].map((tech) => (
           <span key={tech} className="px-2 py-1 text-[12px] bg-gray-800 text-gray-300 rounded-md border border-gray-700">
             {tech}
           </span>
